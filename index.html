@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec-App</title>
     <link rel="stylesheet" href="./css/style.css">
-    <title>Bin2Dec</title>
+    <script src="./js/main.js"></script>
 </head>
+
 <body>
-    
+    <div class="flex">
+        <div>
+            <h1>Bin2Dec App</h1>
+            <p>Enter a binary number, get a decimal conversation</p>
+            <p id="Num1" style="color: red;"></p>
+            <p id="Num2" style="color: green;"></p>
+            <br>
+            <input type="number" id="numero" required pattern="[01]{5}" onkeyup="parrafos()">
+            <p id="calculo"></p>
+        </div>
+    </div>
+    <footer>Hecho por @albertraluy</footer>
 </body>
+
 </html>
