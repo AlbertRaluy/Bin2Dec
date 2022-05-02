@@ -3,9 +3,8 @@ html {
     font-size: 16px;
 }
 
-
 p {
-    font-size: 8px;
+    font-size: 17px;
     color: white;
     text-align: center;
 }
@@ -39,7 +38,7 @@ h6 {
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -55,6 +54,7 @@ body {
     display: table;
     clear: both;
 }
+
 
 
 .column-1 {
@@ -93,6 +93,58 @@ body {
 }
 
 
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.botones {
+    width: 48%;
+}
+
+#resultado {
+    text-align: center;
+    color: red;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+
+#procesando {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.yellow {
+    color: rgb(255, 242, 0);
+    background-color: rgba(88, 165, 88, 0.267);
+}
+
+#mal {
+    color: red;
+    font-size: 15px;
+}
+
+#bien {
+    color: green;
+    font-size: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+ }
+
 .color-submit {
     background-color: orange;
     border-radius: 7px;
@@ -118,23 +170,8 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.botones {
-    width: 48%;
-}
-
-#resultado {
-    text-align: center;
-    color: red;
-}
-
-footer {
+p {
     color: white;
-    text-align: center;
-    height: 10vh;
 }
 
 
@@ -146,15 +183,15 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-
+    
     .column-2 {
         width: 100%;
     }
-
+    
     .column-3 {
         width: 100%;
     }
-
+    
     .column-4 {
         width: 50%;
     }

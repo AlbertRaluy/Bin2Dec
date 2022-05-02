@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bin2Dec-App</title>
+    <title>Bin2Dec App</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js"></script>
 </head>
@@ -14,15 +14,17 @@
     <div class="flex">
         <div>
             <h1>Bin2Dec App</h1>
-            <p>Enter a binary number, get a decimal conversation</p>
-            <p id="Num1" style="color: red;"></p>
-            <p id="Num2" style="color: green;"></p>
+            <p id="texto">Enter a binari number, get a decimal conversion</p>
+            <p class="red" id="mal"></p>
+            <p class="green" id="bien"></p>
             <br>
-            <input type="number" id="numero" required pattern="[01]{5}" onkeyup="parrafos()">
-            <p id="calculo"></p>
+            <input type="number" placeholder="Numero Binario..." id="numerobinario" value="" onkeyup="texto()">
+            <p id="procesando"></p>
         </div>
     </div>
-    <footer>Hecho por ⚡@albertraluy⚡</footer>
+
+    <footer>Made by: @AlbertRaluy</footer>
+
 </body>
 
 </html>
